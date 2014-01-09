@@ -88,8 +88,8 @@ public class CasinoMemory {
 	private static Text segundos = new Text(840,200,"");
 	private static Text puntos = new Text(840,350,"0");
 	private static int nivelElegido = -1;
-	private static Picture mono = new Picture("src/juego/simbolos/mono.png");
-	private static Picture bocadillo = new Picture("src/juego/simbolos/bocadillo.png");
+	private static Picture mono = new Picture("/simbolos/mono.png");
+	private static Picture bocadillo = new Picture("/simbolos/bocadillo.png");
 	
 	
 	
@@ -103,7 +103,7 @@ public class CasinoMemory {
 		int x = 40;
 		int y = 560;		
 		
-		Picture fondo = new Picture("src/juego/simbolos/fondo.png");
+		Picture fondo = new Picture("/simbolos/fondo.png");
 		fondo.translate(0, 0);
 		fondo.draw();
 		
@@ -112,7 +112,7 @@ public class CasinoMemory {
 				
 		for ( i = 0; i < niveles.length; ++i ) {			
 			
-			rutaNiveles[i] = ("src/juego/simbolos/nivel" + (i + 1) + ".png");
+			rutaNiveles[i] = ("/simbolos/nivel" + (i + 1) + ".png");
 			niveles[i] = new Picture(rutaNiveles[i]);
 			niveles[i].translate(x, y);
 			niveles[i].draw();
@@ -273,7 +273,7 @@ public class CasinoMemory {
 				
 		for ( i = 0; i < rutaFiguras.length; ++i ) {			
 			
-			rutaFiguras[i] = ("src/juego/simbolos/" + Integer.toString(figuras[i]) + ".png");			
+			rutaFiguras[i] = ("/simbolos/" + Integer.toString(figuras[i]) + ".png");			
 		}
 		
 		//DIBUJAR FIGURAS A PLASMAR
@@ -309,7 +309,7 @@ public class CasinoMemory {
 		
 		for ( i = 0; i < tapasFiguras.length; ++i ) {
 			
-			tapasFiguras[i] = new Picture("src/juego/simbolos/ruleta.png");
+			tapasFiguras[i] = new Picture("/simbolos/ruleta.png");
 			
 			if ( i != 0 && i % numFigurasPorFila == 0 ) {
 				
