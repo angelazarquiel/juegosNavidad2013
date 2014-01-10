@@ -90,6 +90,7 @@ public class Juego {
 				inicio4.undraw();
 				inicio5.undraw();
 				carlos.undraw();
+				version.undraw();
 				
 				break;
 				
@@ -109,6 +110,7 @@ public class Juego {
 				inicio4.undraw();
 				inicio5.undraw();
 				carlos.undraw();	
+				version.undraw();
 				
 				break;
 				
@@ -127,6 +129,7 @@ public class Juego {
 				inicio4.undraw();
 				inicio5.undraw();
 				carlos.undraw();
+				version.undraw();
 				
 				break;
 			}
