@@ -12,8 +12,7 @@ import graphics2.Text;
 import javax.swing.JOptionPane;
 
 
-public class main {
-	
+public class main {	
 	
 
 	public static void main(String[] args) {
