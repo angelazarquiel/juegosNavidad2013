@@ -224,7 +224,7 @@ package Linea1;
 	    }    
 	    	
 	  //Metodo Que Contiene El Flujo Y El Orden Del Juego.
-	    public void jugarGato(){
+	    public void jugarLinea(){
 	    	
 	    	BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
 	    	
